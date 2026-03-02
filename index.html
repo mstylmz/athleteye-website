@@ -3,82 +3,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AthletEye Marketing Website</title>
+    <title>AthletEye – Football Community App</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a class="nav-brand" href="#">
+                <img src="logo.png" alt="AthletEye Logo" class="nav-logo">
+                <span class="nav-name">AthletEye</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features" data-i18n="nav.features">Features</a></li>
+                <li><a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a></li>
+                <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+                <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <select id="language-selector" aria-label="Select Language">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="tr">Türkçe</option>
+                <option value="pt">Português</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="fr">Français</option>
+            </select>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
-    <section id="hero" data-lang="en">
-        <h1>Welcome to AthletEye</h1>
-        <p>Your all-in-one solution for athlete management</p>
-        <a href="#features" class="cta-button">Explore Features</a>
-    </section>
-
-    <!-- Features -->
-    <section id="features" data-lang="en">
-        <h2>Features</h2>
-        <ul>
-            <li><strong>Feature 1:</strong> Description...</li>
-            <li><strong>Feature 2:</strong> Description...</li>
-            <li><strong>Feature 3:</strong> Description...</li>
-        </ul>
-    </section>
-
-    <!-- Screenshots Carousel -->
-    <section id="screenshots" data-lang="en">
-        <h2>Gallery</h2>
-        <div class="carousel">
-            <img src="screenshot1.jpg" alt="Screenshot 1">
-            <img src="screenshot2.jpg" alt="Screenshot 2">
-            <img src="screenshot3.jpg" alt="Screenshot 3">
+    <section id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero.title">Bring Your Football Community Together</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Connect with teammates, message them, and organize games with ease.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-store btn-store--disabled" aria-disabled="true">
+                    <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    <div class="store-text">
+                        <span class="store-label" data-i18n="hero.coming_soon">Coming Soon</span>
+                        <span class="store-name" data-i18n="hero.appstore_btn">App Store</span>
+                    </div>
+                </a>
+                <a href="#" class="btn-store btn-store--disabled" aria-disabled="true">
+                    <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.83 1.01-1.3 1.69-.78l14.5 8.5c.62.36.62 1.21 0 1.57l-14.5 8.5c-.68.51-1.69.04-1.69-.79z"/></svg>
+                    <div class="store-text">
+                        <span class="store-label" data-i18n="hero.coming_soon">Coming Soon</span>
+                        <span class="store-name" data-i18n="hero.googleplay_btn">Google Play</span>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Pricing Plans -->
-    <section id="pricing" data-lang="en">
-        <h2>Pricing Plans</h2>
-        <div class="pricing-plan">
-            <h3>Basic Plan</h3>
-            <p>$29/month</p>
-            <button>Sign Up</button>
-        </div>
-        <div class="pricing-plan">
-            <h3>Pro Plan</h3>
-            <p>$49/month</p>
-            <button>Sign Up</button>
+    <!-- Features Section -->
+    <section id="features" class="section section--light">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features.section_title">Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                    </div>
+                    <h3 data-i18n="features.feature1_title">Player Profile</h3>
+                    <p data-i18n="features.feature1_desc">Create your football profile with position, stats, height, weight, and nationality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3 data-i18n="features.feature2_title">Team Chat</h3>
+                    <p data-i18n="features.feature2_desc">Message your teammates, react to messages, and coordinate games in real time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h3 data-i18n="features.feature3_title">Organize Games</h3>
+                    <p data-i18n="features.feature3_desc">Set up lineups, manage events, and invite players with a team code.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- FAQ -->
-    <section id="faq" data-lang="en">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faq-item">
-            <h3>What is AthletEye?</h3>
-            <p>AthletEye is a comprehensive athlete management platform.</p>
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="section section--dark">
+        <div class="container">
+            <h2 class="section-title" data-i18n="screenshots.section_title">Screenshots</h2>
+            <div class="carousel-wrapper">
+                <button class="carousel-btn carousel-btn--prev" id="carousel-prev" aria-label="Previous screenshot">&#8592;</button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track" id="carousel-track">
+                        <div class="carousel-slide">
+                            <div class="phone-frame">
+                                <img src="screenshot-profile.png" alt="Player Profile Screen" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="phone-frame">
+                                <img src="screenshot-team.png" alt="Team Setup Screen" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="phone-frame">
+                                <img src="screenshot-chat.png" alt="Team Chat Screen" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="phone-frame">
+                                <img src="screenshot-teaminfo.png" alt="Team Info Screen" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="phone-frame">
+                                <img src="screenshot-lineup.png" alt="Lineup Screen" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-btn--next" id="carousel-next" aria-label="Next screenshot">&#8594;</button>
+            </div>
+            <div class="carousel-dots" id="carousel-dots">
+                <button class="dot dot--active" aria-label="Slide 1"></button>
+                <button class="dot" aria-label="Slide 2"></button>
+                <button class="dot" aria-label="Slide 3"></button>
+                <button class="dot" aria-label="Slide 4"></button>
+                <button class="dot" aria-label="Slide 5"></button>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Form -->
-    <section id="contact" data-lang="en">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <!-- Pricing Section -->
+    <section id="pricing" class="section section--light">
+        <div class="container">
+            <h2 class="section-title" data-i18n="pricing.section_title">Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-plan-name" data-i18n="pricing.free_title">Free</h3>
+                    <div class="pricing-price">
+                        <span class="price-amount">$0</span>
+                    </div>
+                    <p class="pricing-desc" data-i18n="pricing.free_desc">Basic features, join a team, and chat with your teammates.</p>
+                    <button class="btn-pricing" data-i18n="pricing.sign_up">Get Started</button>
+                </div>
+                <div class="pricing-card pricing-card--popular">
+                    <span class="popular-badge" data-i18n="pricing.most_popular">Most Popular</span>
+                    <h3 class="pricing-plan-name" data-i18n="pricing.pro_title">Pro</h3>
+                    <div class="pricing-price">
+                        <span class="price-amount">$4.99</span>
+                        <span class="price-period">/ <span data-i18n="pricing.month">month</span></span>
+                    </div>
+                    <p class="pricing-desc" data-i18n="pricing.pro_desc">Advanced stats, unlimited teams, and more.</p>
+                    <button class="btn-pricing btn-pricing--coming-soon" disabled>
+                        <span data-i18n="pricing.coming_soon">Coming Soon</span>
+                    </button>
+                </div>
+                <div class="pricing-card">
+                    <h3 class="pricing-plan-name" data-i18n="pricing.elite_title">Elite</h3>
+                    <div class="pricing-price">
+                        <span class="price-amount">$9.99</span>
+                        <span class="price-period">/ <span data-i18n="pricing.month">month</span></span>
+                    </div>
+                    <p class="pricing-desc" data-i18n="pricing.elite_desc">Full access, priority support, and exclusive features.</p>
+                    <button class="btn-pricing btn-pricing--coming-soon" disabled>
+                        <span data-i18n="pricing.coming_soon">Coming Soon</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Iubenda Footer Links -->
-    <footer>
-        <p>© 2026 AthletEye. All rights reserved.</p>
-        <a href="https://www.iubenda.com/en/help/6755-iubenda-and-your-website">Privacy Policy</a>
-        <a href="https://www.iubenda.com/en/help/6756-terms-of-service">Terms of Service</a>
+    <!-- FAQ Section -->
+    <section id="faq" class="section section--dark">
+        <div class="container container--narrow">
+            <h2 class="section-title" data-i18n="faq.section_title">FAQ</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq.q1">What is AthletEye?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a1">AthletEye is a football community app for iOS and Android that helps players connect with teammates, organize games, and manage teams.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq.q2">Who is AthletEye for?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a2">AthletEye is designed for football players aged 13 and above who want to stay connected with their team.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq.q3">Is AthletEye free?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a3">Yes, AthletEye offers a free plan with essential features. Pro and Elite plans are available for advanced functionality.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq.q4">When will the app be available on App Store / Google Play?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a4">AthletEye is coming soon to both the App Store and Google Play. Stay tuned for the official release!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section--light">
+        <div class="container container--narrow">
+            <h2 class="section-title" data-i18n="contact.section_title">Contact Us</h2>
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="contact-name" data-i18n="contact.name_label">Name</label>
+                    <input type="text" id="contact-name" name="name" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="contact-email" data-i18n="contact.email_label">Email</label>
+                    <input type="email" id="contact-email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label for="contact-message" data-i18n="contact.message_label">Message</label>
+                    <textarea id="contact-message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit" data-i18n="contact.send_btn">Send Message</button>
+                <p class="form-success" id="form-success" hidden data-i18n="contact.success_msg">Thank you! Your message has been sent.</p>
+            </form>
+            <p class="contact-email">📧 <a href="mailto:athleteye@gmail.com">athleteye@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="logo.png" alt="AthletEye Logo" class="footer-logo">
+                <span class="footer-name">AthletEye</span>
+            </div>
+            <p class="footer-tagline" data-i18n="footer.tagline">AthletEye brings your football community together.</p>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="#features" data-i18n="nav.features">Features</a>
+                <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+                <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+                <a href="#faq" data-i18n="nav.faq">FAQ</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
+            <div class="footer-legal">
+                <a href="https://www.iubenda.com/privacy-policy/13746302" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iub-legal-only iub-body-embed" title="Privacy Policy">Privacy Policy</a>
+                <a href="https://www.iubenda.com/privacy-policy/13746302/cookie-policy" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iub-body-embed" title="Cookie Policy">Cookie Policy</a>
+                <a href="https://www.iubenda.com/terms-and-conditions/13746302" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iub-body-embed" title="Terms and Conditions">Terms and Conditions</a>
+            </div>
+            <p class="footer-rights" data-i18n="footer.rights">© 2026 AthletEye. All rights reserved.</p>
+        </div>
     </footer>
 
+    <script type="text/javascript">
+        (function (w,d) {
+            var loader = function () {
+                var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
+                s.src = "https://cdn.iubenda.com/iubenda.js";
+                tag.parentNode.insertBefore(s, tag);
+            };
+            if (w.addEventListener) { w.addEventListener("load", loader, false); }
+            else if (w.attachEvent) { w.attachEvent("onload", loader); }
+            else { w.onload = loader; }
+        })(window, document);
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
