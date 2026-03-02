@@ -1,0 +1,83 @@
+.header {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.language-switcher {
+    float: right;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.screenshots-carousel {
+    display: flex;
+    overflow: auto;
+    padding: 20px;
+}
+
+.screenshot {
+    min-width: 300px;
+    margin: 10px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.pricing-plan {
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.faq {
+    padding: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .features, .pricing-plans {
+        flex-direction: column;
+    }
+}
