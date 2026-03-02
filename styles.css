@@ -74,7 +74,7 @@ button { cursor: pointer; font-family: var(--font); }
     flex-shrink: 0;
 }
 
-.nav-logo { width: 36px; height: 36px; object-fit: contain; }
+.nav-logo { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
 
 .nav-name {
     font-size: 1.2rem;
@@ -137,7 +137,7 @@ button { cursor: pointer; font-family: var(--font); }
 /* ===========================
    Sections common
    =========================== */
-.section { padding: 96px 24px; }
+.section { padding: 80px 24px; }
 
 .section--light { background: var(--bg-light); color: var(--text-dark); }
 
@@ -217,12 +217,9 @@ button { cursor: pointer; font-family: var(--font); }
 
 .hero-phone-frame {
     width: 240px;
-    border-radius: 40px;
-    overflow: hidden;
-    box-shadow: 0 0 0 3px rgba(255,255,255,0.15), 0 16px 56px rgba(0,0,0,0.6);
-    background: #111;
-    aspect-ratio: 9/19;
     position: relative;
+    overflow: hidden;
+    aspect-ratio: 9/19;
 }
 
 .hero-phone-img {
@@ -231,7 +228,6 @@ button { cursor: pointer; font-family: var(--font); }
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 38px;
     will-change: opacity;
 }
 
@@ -301,7 +297,7 @@ button { cursor: pointer; font-family: var(--font); }
 .feature-row {
     display: flex;
     align-items: center;
-    gap: 56px;
+    gap: 2rem;
 }
 
 .feature-row--reverse {
@@ -337,7 +333,7 @@ button { cursor: pointer; font-family: var(--font); }
 }
 
 .feature-row__text h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 14px;
     color: var(--text-dark);
@@ -345,31 +341,18 @@ button { cursor: pointer; font-family: var(--font); }
 
 .feature-row__text p {
     color: var(--text-muted);
-    font-size: 1rem;
+    font-size: 1.05rem;
     line-height: 1.7;
     max-width: 420px;
 }
 
 /* ===========================
-   Phone Frame (feature rows)
+   Feature Row Phone Images
    =========================== */
-.phone-frame {
+.feature-row__phone img {
     width: 220px;
-    border-radius: 32px;
-    overflow: hidden;
-    box-shadow: 0 12px 48px rgba(0,0,0,0.22), inset 0 0 0 2px rgba(0,0,0,0.08);
-    background: #111;
-    aspect-ratio: 9/19;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.phone-frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 30px;
+    height: auto;
+    display: block;
 }
 
 /* ===========================
@@ -644,7 +627,7 @@ button { cursor: pointer; font-family: var(--font); }
     margin-bottom: 12px;
 }
 
-.footer-logo { width: 36px; height: 36px; object-fit: contain; }
+.footer-logo { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
 
 .footer-name { font-size: 1.2rem; font-weight: 700; color: #fff; }
 
@@ -740,7 +723,7 @@ button { cursor: pointer; font-family: var(--font); }
     #language-selector { order: 2; }
     .nav-toggle { order: 3; }
     .section { padding: 72px 16px; }
-    .phone-frame { width: 180px; }
+    .feature-row__phone img { width: 180px; }
     .hero-phone-frame { width: 200px; }
 }
 
