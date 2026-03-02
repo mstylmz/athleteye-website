@@ -123,6 +123,24 @@
         });
     }
 
+    // ---- Scroll animations (Intersection Observer)
+    function initScrollAnimations() {
+        var targets = document.querySelectorAll('.feature-row, .pricing-option, .faq-item');
+        if (!('IntersectionObserver' in window)) {
+            targets.forEach(function(el) { el.classList.add('visible'); });
+            return;
+        }
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        targets.forEach(function(el) { observer.observe(el); });
+    }
+
     // ---- Init
     document.addEventListener('DOMContentLoaded', function () {
         loadTranslations();
@@ -131,5 +149,6 @@
         initNavToggle();
         initSmoothScroll();
         initFaq();
+        initScrollAnimations();
     });
 })();
