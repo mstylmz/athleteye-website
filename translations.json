@@ -2,7 +2,6 @@
   "en": {
     "nav": {
       "features": "Features",
-      "screenshots": "Screenshots",
       "pricing": "Pricing",
       "faq": "FAQ",
       "contact": "Contact"
@@ -20,24 +19,24 @@
       "feature1_desc": "Create your football profile with position, stats, height, weight, and nationality.",
       "feature2_title": "Team Chat",
       "feature2_desc": "Message your teammates, react to messages, and coordinate games in real time.",
-      "feature3_title": "Organize Games",
-      "feature3_desc": "Set up lineups, manage events, and invite players with a team code."
-    },
-    "screenshots": {
-      "section_title": "Screenshots"
+      "feature3_title": "Take Your Place on the Field",
+      "feature3_desc": "Set up lineups, manage events, and invite players with a team code.",
+      "feature4_title": "Manage Players",
+      "feature4_desc": "View and manage all players in your team, assign roles, and track performance.",
+      "feature5_title": "Create or Join a Team",
+      "feature5_desc": "Create your own team or join an existing one with a simple team code."
     },
     "pricing": {
       "section_title": "Pricing",
-      "free_title": "Free",
-      "free_desc": "Basic features, join a team, and chat with your teammates.",
       "pro_title": "Pro",
       "pro_desc": "Advanced stats, unlimited teams, and more.",
-      "elite_title": "Elite",
-      "elite_desc": "Full access, priority support, and exclusive features.",
-      "month": "month",
-      "most_popular": "Most Popular",
-      "coming_soon": "Coming Soon",
-      "sign_up": "Get Started"
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "per_month": "/ month",
+      "per_year": "/ year",
+      "free_trial": "2 weeks free trial",
+      "save_badge": "Save 16%",
+      "coming_soon": "Coming Soon"
     },
     "faq": {
       "section_title": "FAQ",
@@ -46,7 +45,7 @@
       "q2": "Who is AthletEye for?",
       "a2": "AthletEye is designed for football players aged 13 and above who want to stay connected with their team.",
       "q3": "Is AthletEye free?",
-      "a3": "Yes, AthletEye offers a free plan with essential features. Pro and Elite plans are available for advanced functionality.",
+      "a3": "AthletEye offers a Pro plan with a 2-week free trial. Monthly and yearly billing options are available.",
       "q4": "When will the app be available on App Store / Google Play?",
       "a4": "AthletEye is coming soon to both the App Store and Google Play. Stay tuned for the official release!"
     },
@@ -66,7 +65,6 @@
   "es": {
     "nav": {
       "features": "Características",
-      "screenshots": "Capturas",
       "pricing": "Precios",
       "faq": "Preguntas",
       "contact": "Contacto"
@@ -84,24 +82,24 @@
       "feature1_desc": "Crea tu perfil de fútbol con posición, estadísticas, altura, peso y nacionalidad.",
       "feature2_title": "Chat de Equipo",
       "feature2_desc": "Envía mensajes a tus compañeros, reacciona y coordina partidos en tiempo real.",
-      "feature3_title": "Organiza Partidos",
-      "feature3_desc": "Configura alineaciones, gestiona eventos e invita jugadores con un código de equipo."
-    },
-    "screenshots": {
-      "section_title": "Capturas de Pantalla"
+      "feature3_title": "Ocupa Tu Lugar en el Campo",
+      "feature3_desc": "Configura alineaciones, gestiona eventos e invita jugadores con un código de equipo.",
+      "feature4_title": "Gestionar Jugadores",
+      "feature4_desc": "Visualiza y administra todos los jugadores de tu equipo, asigna roles y sigue el rendimiento.",
+      "feature5_title": "Crear o Unirse a un Equipo",
+      "feature5_desc": "Crea tu propio equipo o únete a uno existente con un código de equipo simple."
     },
     "pricing": {
       "section_title": "Precios",
-      "free_title": "Gratis",
-      "free_desc": "Funciones básicas, unirse a un equipo y chatear con tus compañeros.",
       "pro_title": "Pro",
       "pro_desc": "Estadísticas avanzadas, equipos ilimitados y más.",
-      "elite_title": "Elite",
-      "elite_desc": "Acceso completo, soporte prioritario y funciones exclusivas.",
-      "month": "mes",
-      "most_popular": "Más Popular",
-      "coming_soon": "Próximamente",
-      "sign_up": "Comenzar"
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "per_month": "/ mes",
+      "per_year": "/ año",
+      "free_trial": "2 semanas de prueba gratis",
+      "save_badge": "Ahorra 16%",
+      "coming_soon": "Próximamente"
     },
     "faq": {
       "section_title": "Preguntas Frecuentes",
@@ -110,7 +108,7 @@
       "q2": "¿Para quién es AthletEye?",
       "a2": "AthletEye está diseñado para jugadores de fútbol mayores de 13 años que quieren mantenerse conectados con su equipo.",
       "q3": "¿Es AthletEye gratuito?",
-      "a3": "Sí, AthletEye ofrece un plan gratuito con funciones esenciales. Los planes Pro y Elite están disponibles para funcionalidades avanzadas.",
+      "a3": "AthletEye ofrece un plan Pro con 2 semanas de prueba gratuita. Hay opciones de facturación mensual y anual disponibles.",
       "q4": "¿Cuándo estará disponible en App Store / Google Play?",
       "a4": "AthletEye llegará próximamente a App Store y Google Play. ¡Estén atentos para el lanzamiento oficial!"
     },
@@ -130,7 +128,6 @@
   "tr": {
     "nav": {
       "features": "Özellikler",
-      "screenshots": "Ekran Görüntüleri",
       "pricing": "Fiyatlandırma",
       "faq": "SSS",
       "contact": "İletişim"
@@ -148,24 +145,24 @@
       "feature1_desc": "Pozisyon, istatistik, boy, kilo ve uyrukla futbol profilini oluştur.",
       "feature2_title": "Takım Sohbeti",
       "feature2_desc": "Takım arkadaşlarınla mesajlaş, mesajlara tepki ver ve maçları anlık koordine et.",
-      "feature3_title": "Maç Organize Et",
-      "feature3_desc": "Kadro oluştur, etkinlikleri yönet ve oyuncuları takım koduyla davet et."
-    },
-    "screenshots": {
-      "section_title": "Ekran Görüntüleri"
+      "feature3_title": "Sahada Yeri Al",
+      "feature3_desc": "Kadro oluştur, etkinlikleri yönet ve oyuncuları takım koduyla davet et.",
+      "feature4_title": "Oyuncuları Yönet",
+      "feature4_desc": "Takımındaki tüm oyuncuları görüntüle ve yönet, roller ata ve performansı takip et.",
+      "feature5_title": "Takım Oluştur veya Katıl",
+      "feature5_desc": "Kendi takımını oluştur ya da basit bir takım koduyla mevcut bir takıma katıl."
     },
     "pricing": {
       "section_title": "Fiyatlandırma",
-      "free_title": "Ücretsiz",
-      "free_desc": "Temel özellikler, takıma katılma ve takım arkadaşlarınla sohbet.",
       "pro_title": "Pro",
       "pro_desc": "Gelişmiş istatistikler, sınırsız takım ve daha fazlası.",
-      "elite_title": "Elite",
-      "elite_desc": "Tam erişim, öncelikli destek ve özel özellikler.",
-      "month": "ay",
-      "most_popular": "En Popüler",
-      "coming_soon": "Yakında",
-      "sign_up": "Başla"
+      "monthly": "Aylık",
+      "yearly": "Yıllık",
+      "per_month": "/ ay",
+      "per_year": "/ yıl",
+      "free_trial": "2 hafta ücretsiz deneme",
+      "save_badge": "%16 Tasarruf",
+      "coming_soon": "Yakında"
     },
     "faq": {
       "section_title": "Sıkça Sorulan Sorular",
@@ -174,7 +171,7 @@
       "q2": "AthletEye kimin için?",
       "a2": "AthletEye, takımıyla bağlantıda kalmak isteyen 13 yaş ve üzeri futbol oyuncuları için tasarlanmıştır.",
       "q3": "AthletEye ücretsiz mi?",
-      "a3": "Evet, AthletEye temel özelliklerle ücretsiz bir plan sunar. Gelişmiş işlevler için Pro ve Elite planlar mevcuttur.",
+      "a3": "AthletEye, 2 haftalık ücretsiz deneme süresiyle Pro planı sunmaktadır. Aylık ve yıllık ödeme seçenekleri mevcuttur.",
       "q4": "Uygulama App Store / Google Play'de ne zaman yayınlanacak?",
       "a4": "AthletEye yakında App Store ve Google Play'e gelecek. Resmi yayın için takipte kalın!"
     },
@@ -194,7 +191,6 @@
   "pt": {
     "nav": {
       "features": "Funcionalidades",
-      "screenshots": "Capturas",
       "pricing": "Preços",
       "faq": "FAQ",
       "contact": "Contato"
@@ -212,24 +208,24 @@
       "feature1_desc": "Crie seu perfil de futebol com posição, estatísticas, altura, peso e nacionalidade.",
       "feature2_title": "Chat do Time",
       "feature2_desc": "Envie mensagens para seus colegas, reaja às mensagens e coordene jogos em tempo real.",
-      "feature3_title": "Organize Jogos",
-      "feature3_desc": "Configure escalações, gerencie eventos e convide jogadores com um código de time."
-    },
-    "screenshots": {
-      "section_title": "Capturas de Tela"
+      "feature3_title": "Ocupe Seu Lugar no Campo",
+      "feature3_desc": "Configure escalações, gerencie eventos e convide jogadores com um código de time.",
+      "feature4_title": "Gerenciar Jogadores",
+      "feature4_desc": "Visualize e gerencie todos os jogadores do seu time, atribua funções e acompanhe o desempenho.",
+      "feature5_title": "Criar ou Entrar em um Time",
+      "feature5_desc": "Crie seu próprio time ou entre em um existente com um simples código de time."
     },
     "pricing": {
       "section_title": "Preços",
-      "free_title": "Grátis",
-      "free_desc": "Funcionalidades básicas, entrar em um time e conversar com seus colegas.",
       "pro_title": "Pro",
       "pro_desc": "Estatísticas avançadas, times ilimitados e mais.",
-      "elite_title": "Elite",
-      "elite_desc": "Acesso completo, suporte prioritário e recursos exclusivos.",
-      "month": "mês",
-      "most_popular": "Mais Popular",
-      "coming_soon": "Em Breve",
-      "sign_up": "Começar"
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "per_month": "/ mês",
+      "per_year": "/ ano",
+      "free_trial": "2 semanas de teste grátis",
+      "save_badge": "Economize 16%",
+      "coming_soon": "Em Breve"
     },
     "faq": {
       "section_title": "Perguntas Frequentes",
@@ -238,7 +234,7 @@
       "q2": "Para quem é o AthletEye?",
       "a2": "AthletEye é projetado para jogadores de futebol com 13 anos ou mais que querem se manter conectados com seu time.",
       "q3": "O AthletEye é gratuito?",
-      "a3": "Sim, o AthletEye oferece um plano gratuito com recursos essenciais. Planos Pro e Elite estão disponíveis para funcionalidades avançadas.",
+      "a3": "AthletEye oferece um plano Pro com 2 semanas de teste gratuito. Opções de cobrança mensal e anual estão disponíveis.",
       "q4": "Quando o app estará disponível na App Store / Google Play?",
       "a4": "AthletEye chegará em breve à App Store e ao Google Play. Fique atento para o lançamento oficial!"
     },
@@ -258,7 +254,6 @@
   "de": {
     "nav": {
       "features": "Funktionen",
-      "screenshots": "Screenshots",
       "pricing": "Preise",
       "faq": "FAQ",
       "contact": "Kontakt"
@@ -276,24 +271,24 @@
       "feature1_desc": "Erstelle dein Fußballprofil mit Position, Statistiken, Größe, Gewicht und Nationalität.",
       "feature2_title": "Team-Chat",
       "feature2_desc": "Schreibe deinen Teamkollegen, reagiere auf Nachrichten und koordiniere Spiele in Echtzeit.",
-      "feature3_title": "Spiele Organisieren",
-      "feature3_desc": "Stelle Aufstellungen zusammen, verwalte Events und lade Spieler mit einem Teamcode ein."
-    },
-    "screenshots": {
-      "section_title": "Screenshots"
+      "feature3_title": "Nimm Deinen Platz auf dem Feld ein",
+      "feature3_desc": "Stelle Aufstellungen zusammen, verwalte Events und lade Spieler mit einem Teamcode ein.",
+      "feature4_title": "Spieler verwalten",
+      "feature4_desc": "Zeige alle Spieler in deinem Team an und verwalte sie, weise Rollen zu und verfolge die Leistung.",
+      "feature5_title": "Team erstellen oder beitreten",
+      "feature5_desc": "Erstelle dein eigenes Team oder tritt einem bestehenden mit einem einfachen Teamcode bei."
     },
     "pricing": {
       "section_title": "Preise",
-      "free_title": "Kostenlos",
-      "free_desc": "Grundlegende Funktionen, einem Team beitreten und mit Teamkollegen chatten.",
       "pro_title": "Pro",
       "pro_desc": "Erweiterte Statistiken, unbegrenzte Teams und mehr.",
-      "elite_title": "Elite",
-      "elite_desc": "Vollständiger Zugriff, vorrangiger Support und exklusive Funktionen.",
-      "month": "Monat",
-      "most_popular": "Beliebteste",
-      "coming_soon": "Demnächst",
-      "sign_up": "Loslegen"
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "per_month": "/ Monat",
+      "per_year": "/ Jahr",
+      "free_trial": "2 Wochen kostenlos testen",
+      "save_badge": "16% sparen",
+      "coming_soon": "Demnächst"
     },
     "faq": {
       "section_title": "Häufig Gestellte Fragen",
@@ -302,7 +297,7 @@
       "q2": "Für wen ist AthletEye?",
       "a2": "AthletEye ist für Fußballspieler ab 13 Jahren konzipiert, die mit ihrem Team in Kontakt bleiben möchten.",
       "q3": "Ist AthletEye kostenlos?",
-      "a3": "Ja, AthletEye bietet einen kostenlosen Plan mit wesentlichen Funktionen. Pro- und Elite-Pläne sind für erweiterte Funktionen verfügbar.",
+      "a3": "AthletEye bietet einen Pro-Plan mit 2 Wochen kostenloser Testphase. Monatliche und jährliche Abrechnungsoptionen sind verfügbar.",
       "q4": "Wann wird die App im App Store / Google Play verfügbar sein?",
       "a4": "AthletEye kommt bald in den App Store und Google Play. Bleib gespannt auf die offizielle Veröffentlichung!"
     },
@@ -322,7 +317,6 @@
   "it": {
     "nav": {
       "features": "Funzionalità",
-      "screenshots": "Screenshot",
       "pricing": "Prezzi",
       "faq": "FAQ",
       "contact": "Contatti"
@@ -340,24 +334,24 @@
       "feature1_desc": "Crea il tuo profilo calcistico con posizione, statistiche, altezza, peso e nazionalità.",
       "feature2_title": "Chat di Squadra",
       "feature2_desc": "Manda messaggi ai tuoi compagni, reagisci ai messaggi e coordina le partite in tempo reale.",
-      "feature3_title": "Organizza Partite",
-      "feature3_desc": "Imposta formazioni, gestisci eventi e invita giocatori con un codice squadra."
-    },
-    "screenshots": {
-      "section_title": "Screenshot"
+      "feature3_title": "Prendi Posto in Campo",
+      "feature3_desc": "Imposta formazioni, gestisci eventi e invita giocatori con un codice squadra.",
+      "feature4_title": "Gestisci Giocatori",
+      "feature4_desc": "Visualizza e gestisci tutti i giocatori della tua squadra, assegna ruoli e tieni traccia delle prestazioni.",
+      "feature5_title": "Crea o Unisciti a una Squadra",
+      "feature5_desc": "Crea la tua squadra o unisciti a una esistente con un semplice codice squadra."
     },
     "pricing": {
       "section_title": "Prezzi",
-      "free_title": "Gratis",
-      "free_desc": "Funzionalità di base, unirsi a una squadra e chattare con i tuoi compagni.",
       "pro_title": "Pro",
       "pro_desc": "Statistiche avanzate, squadre illimitate e altro ancora.",
-      "elite_title": "Elite",
-      "elite_desc": "Accesso completo, supporto prioritario e funzionalità esclusive.",
-      "month": "mese",
-      "most_popular": "Più Popolare",
-      "coming_soon": "Prossimamente",
-      "sign_up": "Inizia"
+      "monthly": "Mensile",
+      "yearly": "Annuale",
+      "per_month": "/ mese",
+      "per_year": "/ anno",
+      "free_trial": "2 settimane di prova gratuita",
+      "save_badge": "Risparmia 16%",
+      "coming_soon": "Prossimamente"
     },
     "faq": {
       "section_title": "Domande Frequenti",
@@ -366,7 +360,7 @@
       "q2": "Per chi è AthletEye?",
       "a2": "AthletEye è progettato per giocatori di calcio dai 13 anni in su che vogliono restare in contatto con la loro squadra.",
       "q3": "AthletEye è gratuito?",
-      "a3": "Sì, AthletEye offre un piano gratuito con funzionalità essenziali. I piani Pro ed Elite sono disponibili per funzionalità avanzate.",
+      "a3": "AthletEye offre un piano Pro con 2 settimane di prova gratuita. Sono disponibili opzioni di fatturazione mensile e annuale.",
       "q4": "Quando sarà disponibile l'app su App Store / Google Play?",
       "a4": "AthletEye arriverà presto su App Store e Google Play. Restate sintonizzati per il lancio ufficiale!"
     },
@@ -386,7 +380,6 @@
   "fr": {
     "nav": {
       "features": "Fonctionnalités",
-      "screenshots": "Captures",
       "pricing": "Tarifs",
       "faq": "FAQ",
       "contact": "Contact"
@@ -404,24 +397,24 @@
       "feature1_desc": "Créez votre profil football avec position, statistiques, taille, poids et nationalité.",
       "feature2_title": "Chat d'Équipe",
       "feature2_desc": "Envoyez des messages à vos coéquipiers, réagissez aux messages et coordonnez les matchs en temps réel.",
-      "feature3_title": "Organisez des Matchs",
-      "feature3_desc": "Configurez des compositions, gérez des événements et invitez des joueurs avec un code d'équipe."
-    },
-    "screenshots": {
-      "section_title": "Captures d'Écran"
+      "feature3_title": "Prenez Votre Place sur le Terrain",
+      "feature3_desc": "Configurez des compositions, gérez des événements et invitez des joueurs avec un code d'équipe.",
+      "feature4_title": "Gérer les Joueurs",
+      "feature4_desc": "Visualisez et gérez tous les joueurs de votre équipe, attribuez des rôles et suivez les performances.",
+      "feature5_title": "Créer ou Rejoindre une Équipe",
+      "feature5_desc": "Créez votre propre équipe ou rejoignez-en une existante avec un simple code d'équipe."
     },
     "pricing": {
       "section_title": "Tarifs",
-      "free_title": "Gratuit",
-      "free_desc": "Fonctionnalités de base, rejoindre une équipe et discuter avec vos coéquipiers.",
       "pro_title": "Pro",
       "pro_desc": "Statistiques avancées, équipes illimitées et plus encore.",
-      "elite_title": "Elite",
-      "elite_desc": "Accès complet, support prioritaire et fonctionnalités exclusives.",
-      "month": "mois",
-      "most_popular": "Le Plus Populaire",
-      "coming_soon": "Bientôt",
-      "sign_up": "Commencer"
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "per_month": "/ mois",
+      "per_year": "/ an",
+      "free_trial": "2 semaines d'essai gratuit",
+      "save_badge": "Économisez 16%",
+      "coming_soon": "Bientôt"
     },
     "faq": {
       "section_title": "Questions Fréquentes",
@@ -430,7 +423,7 @@
       "q2": "À qui s'adresse AthletEye ?",
       "a2": "AthletEye est conçu pour les joueurs de football âgés de 13 ans et plus qui souhaitent rester connectés avec leur équipe.",
       "q3": "AthletEye est-il gratuit ?",
-      "a3": "Oui, AthletEye propose un plan gratuit avec des fonctionnalités essentielles. Les plans Pro et Elite sont disponibles pour des fonctionnalités avancées.",
+      "a3": "AthletEye propose un plan Pro avec 2 semaines d'essai gratuit. Des options de facturation mensuelle et annuelle sont disponibles.",
       "q4": "Quand l'application sera-t-elle disponible sur App Store / Google Play ?",
       "a4": "AthletEye arrive bientôt sur l'App Store et Google Play. Restez à l'écoute pour le lancement officiel !"
     },

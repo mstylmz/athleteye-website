@@ -20,7 +20,6 @@
             </a>
             <ul class="nav-links">
                 <li><a href="#features" data-i18n="nav.features">Features</a></li>
-                <li><a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a></li>
                 <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
                 <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
                 <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
@@ -42,24 +41,32 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-content">
-            <h1 class="hero-title" data-i18n="hero.title">Bring Your Football Community Together</h1>
-            <p class="hero-subtitle" data-i18n="hero.subtitle">Connect with teammates, message them, and organize games with ease.</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn-store btn-store--disabled" aria-disabled="true">
-                    <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-                    <div class="store-text">
-                        <span class="store-label" data-i18n="hero.coming_soon">Coming Soon</span>
-                        <span class="store-name" data-i18n="hero.appstore_btn">App Store</span>
-                    </div>
-                </a>
-                <a href="#" class="btn-store btn-store--disabled" aria-disabled="true">
-                    <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.83 1.01-1.3 1.69-.78l14.5 8.5c.62.36.62 1.21 0 1.57l-14.5 8.5c-.68.51-1.69.04-1.69-.79z"/></svg>
-                    <div class="store-text">
-                        <span class="store-label" data-i18n="hero.coming_soon">Coming Soon</span>
-                        <span class="store-name" data-i18n="hero.googleplay_btn">Google Play</span>
-                    </div>
-                </a>
+        <div class="hero-inner">
+            <div class="hero-text">
+                <h1 class="hero-title" data-i18n="hero.title">Bring Your Football Community Together</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Connect with teammates, message them, and organize games with ease.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-store btn-store--disabled" aria-disabled="true">
+                        <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                        <div class="store-text">
+                            <span class="store-label" data-i18n="hero.coming_soon">Coming Soon</span>
+                            <span class="store-name" data-i18n="hero.appstore_btn">App Store</span>
+                        </div>
+                    </a>
+                    <a href="#" class="btn-store btn-store--disabled" aria-disabled="true">
+                        <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.83 1.01-1.3 1.69-.78l14.5 8.5c.62.36.62 1.21 0 1.57l-14.5 8.5c-.68.51-1.69.04-1.69-.79z"/></svg>
+                        <div class="store-text">
+                            <span class="store-label" data-i18n="hero.coming_soon">Coming Soon</span>
+                            <span class="store-name" data-i18n="hero.googleplay_btn">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-phone-col">
+                <div class="hero-phone-frame">
+                    <img src="chat.png" alt="Team Chat" class="hero-phone-img hero-phone-img--1" loading="eager">
+                    <img src="formation.png" alt="Formation" class="hero-phone-img hero-phone-img--2" loading="eager">
+                </div>
             </div>
         </div>
     </section>
@@ -68,75 +75,77 @@
     <section id="features" class="section section--light">
         <div class="container">
             <h2 class="section-title" data-i18n="features.section_title">Features</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+            <div class="features-list">
+                <div class="feature-row">
+                    <div class="feature-row__text">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                        </div>
+                        <h3 data-i18n="features.feature1_title">Player Profile</h3>
+                        <p data-i18n="features.feature1_desc">Create your football profile with position, stats, height, weight, and nationality.</p>
                     </div>
-                    <h3 data-i18n="features.feature1_title">Player Profile</h3>
-                    <p data-i18n="features.feature1_desc">Create your football profile with position, stats, height, weight, and nationality.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                    </div>
-                    <h3 data-i18n="features.feature2_title">Team Chat</h3>
-                    <p data-i18n="features.feature2_desc">Message your teammates, react to messages, and coordinate games in real time.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                    </div>
-                    <h3 data-i18n="features.feature3_title">Organize Games</h3>
-                    <p data-i18n="features.feature3_desc">Set up lineups, manage events, and invite players with a team code.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Screenshots Section -->
-    <section id="screenshots" class="section section--dark">
-        <div class="container">
-            <h2 class="section-title" data-i18n="screenshots.section_title">Screenshots</h2>
-            <div class="carousel-wrapper">
-                <button class="carousel-btn carousel-btn--prev" id="carousel-prev" aria-label="Previous screenshot">&#8592;</button>
-                <div class="carousel-track-container">
-                    <div class="carousel-track" id="carousel-track">
-                        <div class="carousel-slide">
-                            <div class="phone-frame">
-                                <img src="createplayerprofile.png" alt="Player Profile Screen" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="phone-frame">
-                                <img src="createorjointeam.png" alt="Team Setup Screen" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="phone-frame">
-                                <img src="chat.png" alt="Team Chat Screen" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="phone-frame">
-                                <img src="manageteamplayers.png" alt="Team Info Screen" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="phone-frame">
-                                <img src="formation.png" alt="Lineup Screen" loading="lazy">
-                            </div>
+                    <div class="feature-row__phone">
+                        <div class="phone-frame">
+                            <img src="createplayerprofile.png" alt="Player Profile Screen" loading="lazy">
                         </div>
                     </div>
                 </div>
-                <button class="carousel-btn carousel-btn--next" id="carousel-next" aria-label="Next screenshot">&#8594;</button>
-            </div>
-            <div class="carousel-dots" id="carousel-dots">
-                <button class="dot dot--active" aria-label="Slide 1"></button>
-                <button class="dot" aria-label="Slide 2"></button>
-                <button class="dot" aria-label="Slide 3"></button>
-                <button class="dot" aria-label="Slide 4"></button>
-                <button class="dot" aria-label="Slide 5"></button>
+                <div class="feature-row feature-row--reverse">
+                    <div class="feature-row__text">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <h3 data-i18n="features.feature2_title">Team Chat</h3>
+                        <p data-i18n="features.feature2_desc">Message your teammates, react to messages, and coordinate games in real time.</p>
+                    </div>
+                    <div class="feature-row__phone">
+                        <div class="phone-frame">
+                            <img src="chat.png" alt="Team Chat Screen" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-row">
+                    <div class="feature-row__text">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        </div>
+                        <h3 data-i18n="features.feature3_title">Take Your Place on the Field</h3>
+                        <p data-i18n="features.feature3_desc">Set up lineups, manage events, and invite players with a team code.</p>
+                    </div>
+                    <div class="feature-row__phone">
+                        <div class="phone-frame">
+                            <img src="formation.png" alt="Formation Screen" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-row feature-row--reverse">
+                    <div class="feature-row__text">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3 data-i18n="features.feature4_title">Manage Players</h3>
+                        <p data-i18n="features.feature4_desc">View and manage all players in your team, assign roles, and track performance.</p>
+                    </div>
+                    <div class="feature-row__phone">
+                        <div class="phone-frame">
+                            <img src="manageteamplayers.png" alt="Manage Players Screen" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-row">
+                    <div class="feature-row__text">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3 data-i18n="features.feature5_title">Create or Join a Team</h3>
+                        <p data-i18n="features.feature5_desc">Create your own team or join an existing one with a simple team code.</p>
+                    </div>
+                    <div class="feature-row__phone">
+                        <div class="phone-frame">
+                            <img src="createorjointeam.png" alt="Create or Join Team Screen" loading="lazy">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -145,37 +154,33 @@
     <section id="pricing" class="section section--light">
         <div class="container">
             <h2 class="section-title" data-i18n="pricing.section_title">Pricing</h2>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3 class="pricing-plan-name" data-i18n="pricing.free_title">Free</h3>
-                    <div class="pricing-price">
-                        <span class="price-amount">$0</span>
+            <div class="pricing-pro-wrapper">
+                <h3 class="pricing-pro-title" data-i18n="pricing.pro_title">Pro</h3>
+                <p class="pricing-pro-desc" data-i18n="pricing.pro_desc">Advanced stats, unlimited teams, and more.</p>
+                <div class="pricing-options">
+                    <div class="pricing-option">
+                        <h4 class="pricing-option-label" data-i18n="pricing.monthly">Monthly</h4>
+                        <div class="pricing-option-price">
+                            <span class="price-amount">$3.99</span>
+                            <span class="price-period" data-i18n="pricing.per_month">/ month</span>
+                        </div>
+                        <p class="pricing-option-trial" data-i18n="pricing.free_trial">2 weeks free trial</p>
+                        <button class="btn-pricing btn-pricing--coming-soon" disabled>
+                            <span data-i18n="pricing.coming_soon">Coming Soon</span>
+                        </button>
                     </div>
-                    <p class="pricing-desc" data-i18n="pricing.free_desc">Basic features, join a team, and chat with your teammates.</p>
-                    <button class="btn-pricing" data-i18n="pricing.sign_up">Get Started</button>
-                </div>
-                <div class="pricing-card pricing-card--popular">
-                    <span class="popular-badge" data-i18n="pricing.most_popular">Most Popular</span>
-                    <h3 class="pricing-plan-name" data-i18n="pricing.pro_title">Pro</h3>
-                    <div class="pricing-price">
-                        <span class="price-amount">$4.99</span>
-                        <span class="price-period">/ <span data-i18n="pricing.month">month</span></span>
+                    <div class="pricing-option pricing-option--best">
+                        <span class="pricing-best-badge" data-i18n="pricing.save_badge">Save 16%</span>
+                        <h4 class="pricing-option-label" data-i18n="pricing.yearly">Yearly</h4>
+                        <div class="pricing-option-price">
+                            <span class="price-amount">$39.99</span>
+                            <span class="price-period" data-i18n="pricing.per_year">/ year</span>
+                        </div>
+                        <p class="pricing-option-trial" data-i18n="pricing.free_trial">2 weeks free trial</p>
+                        <button class="btn-pricing btn-pricing--coming-soon" disabled>
+                            <span data-i18n="pricing.coming_soon">Coming Soon</span>
+                        </button>
                     </div>
-                    <p class="pricing-desc" data-i18n="pricing.pro_desc">Advanced stats, unlimited teams, and more.</p>
-                    <button class="btn-pricing btn-pricing--coming-soon" disabled>
-                        <span data-i18n="pricing.coming_soon">Coming Soon</span>
-                    </button>
-                </div>
-                <div class="pricing-card">
-                    <h3 class="pricing-plan-name" data-i18n="pricing.elite_title">Elite</h3>
-                    <div class="pricing-price">
-                        <span class="price-amount">$9.99</span>
-                        <span class="price-period">/ <span data-i18n="pricing.month">month</span></span>
-                    </div>
-                    <p class="pricing-desc" data-i18n="pricing.elite_desc">Full access, priority support, and exclusive features.</p>
-                    <button class="btn-pricing btn-pricing--coming-soon" disabled>
-                        <span data-i18n="pricing.coming_soon">Coming Soon</span>
-                    </button>
                 </div>
             </div>
         </div>
@@ -260,7 +265,6 @@
             <p class="footer-tagline" data-i18n="footer.tagline">AthletEye brings your football community together.</p>
             <nav class="footer-nav" aria-label="Footer navigation">
                 <a href="#features" data-i18n="nav.features">Features</a>
-                <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
                 <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
                 <a href="#faq" data-i18n="nav.faq">FAQ</a>
                 <a href="#contact" data-i18n="nav.contact">Contact</a>

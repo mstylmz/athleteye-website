@@ -100,70 +100,6 @@
         });
     }
 
-    // ---- Carousel
-    function initCarousel() {
-        var track = document.getElementById('carousel-track');
-        var prevBtn = document.getElementById('carousel-prev');
-        var nextBtn = document.getElementById('carousel-next');
-        var dotsContainer = document.getElementById('carousel-dots');
-        if (!track) return;
-
-        var slides = track.querySelectorAll('.carousel-slide');
-        var total = slides.length;
-        var current = 0;
-
-        function goTo(index) {
-            current = (index + total) % total;
-            track.style.transform = 'translateX(-' + (current * 100) + '%)';
-            // Update dots
-            if (dotsContainer) {
-                dotsContainer.querySelectorAll('.dot').forEach(function (d, i) {
-                    d.classList.toggle('dot--active', i === current);
-                });
-            }
-        }
-
-        if (prevBtn) prevBtn.addEventListener('click', function () { goTo(current - 1); });
-        if (nextBtn) nextBtn.addEventListener('click', function () { goTo(current + 1); });
-
-        // Dot clicks
-        if (dotsContainer) {
-            dotsContainer.querySelectorAll('.dot').forEach(function (dot, i) {
-                dot.addEventListener('click', function () { goTo(i); });
-            });
-        }
-
-        // Touch / drag swipe
-        var startX = 0;
-        var isDragging = false;
-
-        track.addEventListener('touchstart', function (e) {
-            startX = e.touches[0].clientX;
-            isDragging = true;
-        }, { passive: true });
-
-        track.addEventListener('touchend', function (e) {
-            if (!isDragging) return;
-            isDragging = false;
-            var diff = startX - e.changedTouches[0].clientX;
-            if (Math.abs(diff) > 50) goTo(diff > 0 ? current + 1 : current - 1);
-        }, { passive: true });
-
-        track.addEventListener('mousedown', function (e) {
-            startX = e.clientX;
-            isDragging = true;
-        });
-
-        track.addEventListener('mouseup', function (e) {
-            if (!isDragging) return;
-            isDragging = false;
-            var diff = startX - e.clientX;
-            if (Math.abs(diff) > 50) goTo(diff > 0 ? current + 1 : current - 1);
-        });
-
-        track.addEventListener('mouseleave', function () { isDragging = false; });
-    }
-
     // ---- FAQ Accordion
     function initFaq() {
         document.querySelectorAll('.faq-question').forEach(function (btn) {
@@ -221,7 +157,6 @@
         initNavbarScroll();
         initNavToggle();
         initSmoothScroll();
-        initCarousel();
         initFaq();
         initContactForm();
     });
