@@ -50,12 +50,7 @@
       "a4": "AthletEye is coming soon to both the App Store and Google Play. Stay tuned for the official release!"
     },
     "contact": {
-      "section_title": "Contact Us",
-      "name_label": "Name",
-      "email_label": "Email",
-      "message_label": "Message",
-      "send_btn": "Send Message",
-      "success_msg": "Thank you! Your message has been sent."
+      "section_title": "Contact Us"
     },
     "footer": {
       "tagline": "AthletEye brings your football community together.",
@@ -113,12 +108,7 @@
       "a4": "AthletEye llegará próximamente a App Store y Google Play. ¡Estén atentos para el lanzamiento oficial!"
     },
     "contact": {
-      "section_title": "Contáctanos",
-      "name_label": "Nombre",
-      "email_label": "Correo",
-      "message_label": "Mensaje",
-      "send_btn": "Enviar Mensaje",
-      "success_msg": "¡Gracias! Tu mensaje ha sido enviado."
+      "section_title": "Contáctanos"
     },
     "footer": {
       "tagline": "AthletEye une a tu comunidad futbolística.",
@@ -176,12 +166,7 @@
       "a4": "AthletEye yakında App Store ve Google Play'e gelecek. Resmi yayın için takipte kalın!"
     },
     "contact": {
-      "section_title": "İletişime Geç",
-      "name_label": "Ad",
-      "email_label": "E-posta",
-      "message_label": "Mesaj",
-      "send_btn": "Mesaj Gönder",
-      "success_msg": "Teşekkürler! Mesajınız gönderildi."
+      "section_title": "İletişime Geç"
     },
     "footer": {
       "tagline": "AthletEye futbol topluluğunu bir araya getirir.",
@@ -239,12 +224,7 @@
       "a4": "AthletEye chegará em breve à App Store e ao Google Play. Fique atento para o lançamento oficial!"
     },
     "contact": {
-      "section_title": "Fale Conosco",
-      "name_label": "Nome",
-      "email_label": "E-mail",
-      "message_label": "Mensagem",
-      "send_btn": "Enviar Mensagem",
-      "success_msg": "Obrigado! Sua mensagem foi enviada."
+      "section_title": "Fale Conosco"
     },
     "footer": {
       "tagline": "AthletEye une sua comunidade de futebol.",
@@ -302,12 +282,7 @@
       "a4": "AthletEye kommt bald in den App Store und Google Play. Bleib gespannt auf die offizielle Veröffentlichung!"
     },
     "contact": {
-      "section_title": "Kontaktiere Uns",
-      "name_label": "Name",
-      "email_label": "E-Mail",
-      "message_label": "Nachricht",
-      "send_btn": "Nachricht Senden",
-      "success_msg": "Danke! Deine Nachricht wurde gesendet."
+      "section_title": "Kontaktiere Uns"
     },
     "footer": {
       "tagline": "AthletEye bringt deine Fußball-Community zusammen.",
@@ -365,12 +340,7 @@
       "a4": "AthletEye arriverà presto su App Store e Google Play. Restate sintonizzati per il lancio ufficiale!"
     },
     "contact": {
-      "section_title": "Contattaci",
-      "name_label": "Nome",
-      "email_label": "Email",
-      "message_label": "Messaggio",
-      "send_btn": "Invia Messaggio",
-      "success_msg": "Grazie! Il tuo messaggio è stato inviato."
+      "section_title": "Contattaci"
     },
     "footer": {
       "tagline": "AthletEye unisce la tua comunità di calcio.",
@@ -428,12 +398,7 @@
       "a4": "AthletEye arrive bientôt sur l'App Store et Google Play. Restez à l'écoute pour le lancement officiel !"
     },
     "contact": {
-      "section_title": "Contactez-Nous",
-      "name_label": "Nom",
-      "email_label": "E-mail",
-      "message_label": "Message",
-      "send_btn": "Envoyer le Message",
-      "success_msg": "Merci ! Votre message a été envoyé."
+      "section_title": "Contactez-Nous"
     },
     "footer": {
       "tagline": "AthletEye rassemble votre communauté football.",
