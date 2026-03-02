@@ -123,33 +123,6 @@
         });
     }
 
-    // ---- Contact Form
-    function initContactForm() {
-        var form = document.getElementById('contact-form');
-        var successMsg = document.getElementById('form-success');
-        if (!form) return;
-
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            var name = form.querySelector('[name="name"]').value.trim();
-            var email = form.querySelector('[name="email"]').value.trim();
-            var message = form.querySelector('[name="message"]').value.trim();
-
-            if (!name || !email || !message) return;
-            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                form.querySelector('[name="email"]').focus();
-                return;
-            }
-
-            // Success
-            form.reset();
-            if (successMsg) {
-                successMsg.hidden = false;
-                setTimeout(function () { successMsg.hidden = true; }, 5000);
-            }
-        });
-    }
-
     // ---- Init
     document.addEventListener('DOMContentLoaded', function () {
         loadTranslations();
@@ -158,6 +131,5 @@
         initNavToggle();
         initSmoothScroll();
         initFaq();
-        initContactForm();
     });
 })();
