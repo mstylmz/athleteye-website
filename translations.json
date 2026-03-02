@@ -1,1 +1,450 @@
-{\n  "en": {\n    "hero": {\n      "title": "Welcome to Athlete Eye",\n      "subtitle": "Your personal trainer in your pocket."\n    },\n    "features": {\n      "feature1": "Track your progress",\n      "feature2": "Get personalized plans",\n      "feature3": "Connect with trainers"\n    },\n    "screenshots": {\n      "screenshot1": "image1.png",\n      "screenshot2": "image2.png"\n    },\n    "pricing": {\n      "basic": "$10/month",\n      "premium": "$20/month"\n    },\n    "faq": {\n      "q1": "What is Athlete Eye?",\n      "a1": "An app that helps you track your fitness journey.",\n      "q2": "How do I cancel my subscription?",\n      "a2": "You can cancel anytime in the app settings."\n    },\n    "contact": {\n      "email": "support@athleteye.com",\n      "phone": "+1234567890"\n    },\n    "footer": {\n      "text": "© 2026 Athlete Eye. All rights reserved."\n    }\n  },\n  "es": {\n    "hero": {\n      "title": "Bienvenido a Athlete Eye",\n      "subtitle": "Tu entrenador personal en tu bolsillo."\n    },\n    "features": {\n      "feature1": "Rastrea tu progreso",\n      "feature2": "Obtén planes personalizados",\n      "feature3": "Conéctate con entrenadores"\n    },\n    "screenshots": {\n      "screenshot1": "imagen1.png",\n      "screenshot2": "imagen2.png"\n    },\n    "pricing": {\n      "basic": "$10/mes",\n      "premium": "$20/mes"\n    },\n    "faq": {\n      "q1": "¿Qué es Athlete Eye?",\n      "a1": "Una app que te ayuda a seguir tu camino de fitness.",\n      "q2": "¿Cómo cancelo mi suscripción?",\n      "a2": "Puedes cancelar en cualquier momento en la configuración de la app."\n    },\n    "contact": {\n      "email": "soporte@athleteye.com",\n      "phone": "+1234567890"\n    },\n    "footer": {\n      "text": "© 2026 Athlete Eye. Todos los derechos reservados."\n    }\n  },\n  "tr": {\n    "hero": {\n      "title": "Athlete Eye'a Hoş Geldiniz",\n      "subtitle": "Cebinizdeki kişisel antrenörünüz."\n    },\n    "features": {\n      "feature1": "İlerlemenizi takip edin",\n      "feature2": "Kişiselleştirilmiş planlar alın",\n      "feature3": "Antrenörlerle bağlantı kurun"\n    },\n    "screenshots": {\n      "screenshot1": "resim1.png",\n      "screenshot2": "resim2.png"\n    },\n    "pricing": {\n      "basic": "Aylık $10",\n      "premium": "Aylık $20"\n    },\n    "faq": {\n      "q1": "Athlete Eye nedir?",\n      "a1": "Sizi fitness yolculuğunuzda takip eden bir uygulama.",\n      "q2": "Aboneliğimi nasıl iptal ederim?",\n      "a2": "Uygulama ayarlarından istediğiniz zaman iptal edebilirsiniz."\n    },\n    "contact": {\n      "email": "destek@athleteye.com",\n      "phone": "+1234567890"\n    },\n    "footer": {\n      "text": "© 2026 Athlete Eye. Tüm hakları saklıdır."\n    }\n  },\n  "pt": {\n    "hero": {\n      "title": "Bem-vindo ao Athlete Eye",\n      "subtitle": "Seu personal trainer no seu bolso."\n    },\n    "features": {\n      "feature1": "Acompanhe seu progresso",\n      "feature2": "Obtenha planos personalizados",\n      "feature3": "Conecte-se com treinadores"\n    },\n    "screenshots": {\n      "screenshot1": "imagem1.png",\n      "screenshot2": "imagem2.png"\n    },\n    "pricing": {\n      "basic": "R$10/mês",\n      "premium": "R$20/mês"\n    },\n    "faq": {\n      "q1": "O que é o Athlete Eye?",\n      "a1": "Um app que ajuda você a acompanhar sua jornada de fitness.",\n      "q2": "Como cancelo minha assinatura?",\n      "a2": "Você pode cancelar a qualquer momento nas configurações do app."\n    },\n    "contact": {\n      "email": "suporte@athleteye.com",\n      "phone": "+1234567890"\n    },\n    "footer": {\n      "text": "© 2026 Athlete Eye. Todos os direitos reservados."\n    }\n  },\n  "de": {\n    "hero": {\n      "title": "Willkommen bei Athlete Eye",\n      "subtitle": "Ihr persönlicher Trainer in Ihrer Tasche."\n    },\n    "features": {\n      "feature1": "Verfolgen Sie Ihren Fortschritt",\n      "feature2": "Erhalten Sie personalisierte Pläne",\n      "feature3": "Verbinden Sie sich mit Trainern"\n    },\n    "screenshots": {\n      "screenshot1": "bild1.png",\n      "screenshot2": "bild2.png"\n    },\n    "pricing": {\n      "basic": "10€/Monat",\n      "premium": "20€/Monat"\n    },\n    "faq": {\n      "q1": "Was ist Athlete Eye?",\n      "a1": "Eine App, die Ihnen hilft, Ihre Fitnessreise zu verfolgen.",\n      "q2": "Wie kündige ich mein Abonnement?",\n      "a2": "Sie können jederzeit in den App-Einstellungen kündigen."\n    },\n    "contact": {\n      "email": "support@athleteye.com",\n      "phone": "+1234567890"\n    },\n    "footer": {\n      "text": "© 2026 Athlete Eye. Alle Rechte vorbehalten."\n    }\n  },\n  "it": {\n    "hero": {\n      "title": "Benvenuto in Athlete Eye",\n      "subtitle": "Il tuo personal trainer nella tua tasca."\n    },\n    "features": {\n      "feature1": "Monitora i tuoi progressi",\n      "feature2": "Ottieni piani personalizzati",\n      "feature3": "Connettiti con i trainer"\n    },\n    "screenshots": {\n      "screenshot1": "immagine1.png",\n      "screenshot2": "immagine2.png"\n    },\n    "pricing": {\n      "basic": "€10/mese",\n      "premium": "€20/mese"\n    },\n    "faq": {\n      "q1": "Cos'è Athlete Eye?",\n      "a1": "Un'app che ti aiuta a tenere traccia del tuo percorso di fitness.",\n      "q2": "Come posso annullare il mio abbonamento?",\n      "a2": "Puoi annullare in qualsiasi momento nelle impostazioni dell'app."\n    },\n    "contact": {\n      "email": "supporto@athleteye.com",\n      "phone": "+1234567890"\n    },\n    "footer": {\n      "text": "© 2026 Athlete Eye. Tutti i diritti riservati."\n    }\n  },\n  "fr": {\n    "hero": {\n      "title": "Bienvenue sur Athlete Eye",\n      "subtitle": "Votre entraîneur personnel dans votre poche."\n    },\n    "features": {\n      "feature1": "Suivez vos progrès",\n      "feature2": "Obtenez des plans personnalisés",\n      "feature3": "Connectez-vous avec des entraîneurs"\n    },\n    "screenshots": {\n      "screenshot1": "image1.png",\n      "screenshot2": "image2.png"\n    },\n    "pricing": {\n      "basic": "10€/mois",\n      "premium": "20€/mois"\n    },\n    "faq": {\n      "q1": "Qu'est-ce que Athlete Eye?",\n      "a1": "Une application qui vous aide à suivre votre parcours de fitness.",\n      "q2": "Comment annuler mon abonnement?",\n      "a2": "Vous pouvez annuler à tout moment dans les paramètres de l'application."\n    },\n    "contact": {\n      "email": "support@athleteye.com",\n      "phone": "+1234567890"\n    },\n    "footer": {\n      "text": "© 2026 Athlete Eye. Tous droits réservés."\n    }\n  }\n}
+{
+  "en": {
+    "nav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Bring Your Football Community Together",
+      "subtitle": "Connect with teammates, message them, and organize games with ease.",
+      "appstore_btn": "App Store",
+      "googleplay_btn": "Google Play",
+      "coming_soon": "Coming Soon"
+    },
+    "features": {
+      "section_title": "Features",
+      "feature1_title": "Player Profile",
+      "feature1_desc": "Create your football profile with position, stats, height, weight, and nationality.",
+      "feature2_title": "Team Chat",
+      "feature2_desc": "Message your teammates, react to messages, and coordinate games in real time.",
+      "feature3_title": "Organize Games",
+      "feature3_desc": "Set up lineups, manage events, and invite players with a team code."
+    },
+    "screenshots": {
+      "section_title": "Screenshots"
+    },
+    "pricing": {
+      "section_title": "Pricing",
+      "free_title": "Free",
+      "free_desc": "Basic features, join a team, and chat with your teammates.",
+      "pro_title": "Pro",
+      "pro_desc": "Advanced stats, unlimited teams, and more.",
+      "elite_title": "Elite",
+      "elite_desc": "Full access, priority support, and exclusive features.",
+      "month": "month",
+      "most_popular": "Most Popular",
+      "coming_soon": "Coming Soon",
+      "sign_up": "Get Started"
+    },
+    "faq": {
+      "section_title": "FAQ",
+      "q1": "What is AthletEye?",
+      "a1": "AthletEye is a football community app for iOS and Android that helps players connect with teammates, organize games, and manage teams.",
+      "q2": "Who is AthletEye for?",
+      "a2": "AthletEye is designed for football players aged 13 and above who want to stay connected with their team.",
+      "q3": "Is AthletEye free?",
+      "a3": "Yes, AthletEye offers a free plan with essential features. Pro and Elite plans are available for advanced functionality.",
+      "q4": "When will the app be available on App Store / Google Play?",
+      "a4": "AthletEye is coming soon to both the App Store and Google Play. Stay tuned for the official release!"
+    },
+    "contact": {
+      "section_title": "Contact Us",
+      "name_label": "Name",
+      "email_label": "Email",
+      "message_label": "Message",
+      "send_btn": "Send Message",
+      "success_msg": "Thank you! Your message has been sent."
+    },
+    "footer": {
+      "tagline": "AthletEye brings your football community together.",
+      "rights": "© 2026 AthletEye. All rights reserved."
+    }
+  },
+  "es": {
+    "nav": {
+      "features": "Características",
+      "screenshots": "Capturas",
+      "pricing": "Precios",
+      "faq": "Preguntas",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "title": "Une a Tu Comunidad Futbolística",
+      "subtitle": "Conéctate con tus compañeros, envíales mensajes y organiza partidos con facilidad.",
+      "appstore_btn": "App Store",
+      "googleplay_btn": "Google Play",
+      "coming_soon": "Próximamente"
+    },
+    "features": {
+      "section_title": "Características",
+      "feature1_title": "Perfil de Jugador",
+      "feature1_desc": "Crea tu perfil de fútbol con posición, estadísticas, altura, peso y nacionalidad.",
+      "feature2_title": "Chat de Equipo",
+      "feature2_desc": "Envía mensajes a tus compañeros, reacciona y coordina partidos en tiempo real.",
+      "feature3_title": "Organiza Partidos",
+      "feature3_desc": "Configura alineaciones, gestiona eventos e invita jugadores con un código de equipo."
+    },
+    "screenshots": {
+      "section_title": "Capturas de Pantalla"
+    },
+    "pricing": {
+      "section_title": "Precios",
+      "free_title": "Gratis",
+      "free_desc": "Funciones básicas, unirse a un equipo y chatear con tus compañeros.",
+      "pro_title": "Pro",
+      "pro_desc": "Estadísticas avanzadas, equipos ilimitados y más.",
+      "elite_title": "Elite",
+      "elite_desc": "Acceso completo, soporte prioritario y funciones exclusivas.",
+      "month": "mes",
+      "most_popular": "Más Popular",
+      "coming_soon": "Próximamente",
+      "sign_up": "Comenzar"
+    },
+    "faq": {
+      "section_title": "Preguntas Frecuentes",
+      "q1": "¿Qué es AthletEye?",
+      "a1": "AthletEye es una app de comunidad de fútbol para iOS y Android que ayuda a los jugadores a conectarse con compañeros, organizar partidos y gestionar equipos.",
+      "q2": "¿Para quién es AthletEye?",
+      "a2": "AthletEye está diseñado para jugadores de fútbol mayores de 13 años que quieren mantenerse conectados con su equipo.",
+      "q3": "¿Es AthletEye gratuito?",
+      "a3": "Sí, AthletEye ofrece un plan gratuito con funciones esenciales. Los planes Pro y Elite están disponibles para funcionalidades avanzadas.",
+      "q4": "¿Cuándo estará disponible en App Store / Google Play?",
+      "a4": "AthletEye llegará próximamente a App Store y Google Play. ¡Estén atentos para el lanzamiento oficial!"
+    },
+    "contact": {
+      "section_title": "Contáctanos",
+      "name_label": "Nombre",
+      "email_label": "Correo",
+      "message_label": "Mensaje",
+      "send_btn": "Enviar Mensaje",
+      "success_msg": "¡Gracias! Tu mensaje ha sido enviado."
+    },
+    "footer": {
+      "tagline": "AthletEye une a tu comunidad futbolística.",
+      "rights": "© 2026 AthletEye. Todos los derechos reservados."
+    }
+  },
+  "tr": {
+    "nav": {
+      "features": "Özellikler",
+      "screenshots": "Ekran Görüntüleri",
+      "pricing": "Fiyatlandırma",
+      "faq": "SSS",
+      "contact": "İletişim"
+    },
+    "hero": {
+      "title": "Futbol Topluluğunu Bir Araya Getir",
+      "subtitle": "Takım arkadaşlarınla bağlan, mesajlaş ve maçları kolayca organize et.",
+      "appstore_btn": "App Store",
+      "googleplay_btn": "Google Play",
+      "coming_soon": "Yakında"
+    },
+    "features": {
+      "section_title": "Özellikler",
+      "feature1_title": "Oyuncu Profili",
+      "feature1_desc": "Pozisyon, istatistik, boy, kilo ve uyrukla futbol profilini oluştur.",
+      "feature2_title": "Takım Sohbeti",
+      "feature2_desc": "Takım arkadaşlarınla mesajlaş, mesajlara tepki ver ve maçları anlık koordine et.",
+      "feature3_title": "Maç Organize Et",
+      "feature3_desc": "Kadro oluştur, etkinlikleri yönet ve oyuncuları takım koduyla davet et."
+    },
+    "screenshots": {
+      "section_title": "Ekran Görüntüleri"
+    },
+    "pricing": {
+      "section_title": "Fiyatlandırma",
+      "free_title": "Ücretsiz",
+      "free_desc": "Temel özellikler, takıma katılma ve takım arkadaşlarınla sohbet.",
+      "pro_title": "Pro",
+      "pro_desc": "Gelişmiş istatistikler, sınırsız takım ve daha fazlası.",
+      "elite_title": "Elite",
+      "elite_desc": "Tam erişim, öncelikli destek ve özel özellikler.",
+      "month": "ay",
+      "most_popular": "En Popüler",
+      "coming_soon": "Yakında",
+      "sign_up": "Başla"
+    },
+    "faq": {
+      "section_title": "Sıkça Sorulan Sorular",
+      "q1": "AthletEye nedir?",
+      "a1": "AthletEye, oyuncuların takım arkadaşlarıyla bağlanmasına, maçları organize etmesine ve takımları yönetmesine yardımcı olan iOS ve Android için bir futbol topluluk uygulamasıdır.",
+      "q2": "AthletEye kimin için?",
+      "a2": "AthletEye, takımıyla bağlantıda kalmak isteyen 13 yaş ve üzeri futbol oyuncuları için tasarlanmıştır.",
+      "q3": "AthletEye ücretsiz mi?",
+      "a3": "Evet, AthletEye temel özelliklerle ücretsiz bir plan sunar. Gelişmiş işlevler için Pro ve Elite planlar mevcuttur.",
+      "q4": "Uygulama App Store / Google Play'de ne zaman yayınlanacak?",
+      "a4": "AthletEye yakında App Store ve Google Play'e gelecek. Resmi yayın için takipte kalın!"
+    },
+    "contact": {
+      "section_title": "İletişime Geç",
+      "name_label": "Ad",
+      "email_label": "E-posta",
+      "message_label": "Mesaj",
+      "send_btn": "Mesaj Gönder",
+      "success_msg": "Teşekkürler! Mesajınız gönderildi."
+    },
+    "footer": {
+      "tagline": "AthletEye futbol topluluğunu bir araya getirir.",
+      "rights": "© 2026 AthletEye. Tüm hakları saklıdır."
+    }
+  },
+  "pt": {
+    "nav": {
+      "features": "Funcionalidades",
+      "screenshots": "Capturas",
+      "pricing": "Preços",
+      "faq": "FAQ",
+      "contact": "Contato"
+    },
+    "hero": {
+      "title": "Una Sua Comunidade de Futebol",
+      "subtitle": "Conecte-se com seus colegas, troque mensagens e organize jogos com facilidade.",
+      "appstore_btn": "App Store",
+      "googleplay_btn": "Google Play",
+      "coming_soon": "Em Breve"
+    },
+    "features": {
+      "section_title": "Funcionalidades",
+      "feature1_title": "Perfil do Jogador",
+      "feature1_desc": "Crie seu perfil de futebol com posição, estatísticas, altura, peso e nacionalidade.",
+      "feature2_title": "Chat do Time",
+      "feature2_desc": "Envie mensagens para seus colegas, reaja às mensagens e coordene jogos em tempo real.",
+      "feature3_title": "Organize Jogos",
+      "feature3_desc": "Configure escalações, gerencie eventos e convide jogadores com um código de time."
+    },
+    "screenshots": {
+      "section_title": "Capturas de Tela"
+    },
+    "pricing": {
+      "section_title": "Preços",
+      "free_title": "Grátis",
+      "free_desc": "Funcionalidades básicas, entrar em um time e conversar com seus colegas.",
+      "pro_title": "Pro",
+      "pro_desc": "Estatísticas avançadas, times ilimitados e mais.",
+      "elite_title": "Elite",
+      "elite_desc": "Acesso completo, suporte prioritário e recursos exclusivos.",
+      "month": "mês",
+      "most_popular": "Mais Popular",
+      "coming_soon": "Em Breve",
+      "sign_up": "Começar"
+    },
+    "faq": {
+      "section_title": "Perguntas Frequentes",
+      "q1": "O que é AthletEye?",
+      "a1": "AthletEye é um app de comunidade de futebol para iOS e Android que ajuda jogadores a se conectarem com colegas, organizar jogos e gerenciar times.",
+      "q2": "Para quem é o AthletEye?",
+      "a2": "AthletEye é projetado para jogadores de futebol com 13 anos ou mais que querem se manter conectados com seu time.",
+      "q3": "O AthletEye é gratuito?",
+      "a3": "Sim, o AthletEye oferece um plano gratuito com recursos essenciais. Planos Pro e Elite estão disponíveis para funcionalidades avançadas.",
+      "q4": "Quando o app estará disponível na App Store / Google Play?",
+      "a4": "AthletEye chegará em breve à App Store e ao Google Play. Fique atento para o lançamento oficial!"
+    },
+    "contact": {
+      "section_title": "Fale Conosco",
+      "name_label": "Nome",
+      "email_label": "E-mail",
+      "message_label": "Mensagem",
+      "send_btn": "Enviar Mensagem",
+      "success_msg": "Obrigado! Sua mensagem foi enviada."
+    },
+    "footer": {
+      "tagline": "AthletEye une sua comunidade de futebol.",
+      "rights": "© 2026 AthletEye. Todos os direitos reservados."
+    }
+  },
+  "de": {
+    "nav": {
+      "features": "Funktionen",
+      "screenshots": "Screenshots",
+      "pricing": "Preise",
+      "faq": "FAQ",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "title": "Bringe Deine Fußball-Community Zusammen",
+      "subtitle": "Verbinde dich mit Teamkollegen, schreibe ihnen und organisiere Spiele mühelos.",
+      "appstore_btn": "App Store",
+      "googleplay_btn": "Google Play",
+      "coming_soon": "Demnächst"
+    },
+    "features": {
+      "section_title": "Funktionen",
+      "feature1_title": "Spielerprofil",
+      "feature1_desc": "Erstelle dein Fußballprofil mit Position, Statistiken, Größe, Gewicht und Nationalität.",
+      "feature2_title": "Team-Chat",
+      "feature2_desc": "Schreibe deinen Teamkollegen, reagiere auf Nachrichten und koordiniere Spiele in Echtzeit.",
+      "feature3_title": "Spiele Organisieren",
+      "feature3_desc": "Stelle Aufstellungen zusammen, verwalte Events und lade Spieler mit einem Teamcode ein."
+    },
+    "screenshots": {
+      "section_title": "Screenshots"
+    },
+    "pricing": {
+      "section_title": "Preise",
+      "free_title": "Kostenlos",
+      "free_desc": "Grundlegende Funktionen, einem Team beitreten und mit Teamkollegen chatten.",
+      "pro_title": "Pro",
+      "pro_desc": "Erweiterte Statistiken, unbegrenzte Teams und mehr.",
+      "elite_title": "Elite",
+      "elite_desc": "Vollständiger Zugriff, vorrangiger Support und exklusive Funktionen.",
+      "month": "Monat",
+      "most_popular": "Beliebteste",
+      "coming_soon": "Demnächst",
+      "sign_up": "Loslegen"
+    },
+    "faq": {
+      "section_title": "Häufig Gestellte Fragen",
+      "q1": "Was ist AthletEye?",
+      "a1": "AthletEye ist eine Fußball-Community-App für iOS und Android, die Spielern hilft, sich mit Teamkollegen zu verbinden, Spiele zu organisieren und Teams zu verwalten.",
+      "q2": "Für wen ist AthletEye?",
+      "a2": "AthletEye ist für Fußballspieler ab 13 Jahren konzipiert, die mit ihrem Team in Kontakt bleiben möchten.",
+      "q3": "Ist AthletEye kostenlos?",
+      "a3": "Ja, AthletEye bietet einen kostenlosen Plan mit wesentlichen Funktionen. Pro- und Elite-Pläne sind für erweiterte Funktionen verfügbar.",
+      "q4": "Wann wird die App im App Store / Google Play verfügbar sein?",
+      "a4": "AthletEye kommt bald in den App Store und Google Play. Bleib gespannt auf die offizielle Veröffentlichung!"
+    },
+    "contact": {
+      "section_title": "Kontaktiere Uns",
+      "name_label": "Name",
+      "email_label": "E-Mail",
+      "message_label": "Nachricht",
+      "send_btn": "Nachricht Senden",
+      "success_msg": "Danke! Deine Nachricht wurde gesendet."
+    },
+    "footer": {
+      "tagline": "AthletEye bringt deine Fußball-Community zusammen.",
+      "rights": "© 2026 AthletEye. Alle Rechte vorbehalten."
+    }
+  },
+  "it": {
+    "nav": {
+      "features": "Funzionalità",
+      "screenshots": "Screenshot",
+      "pricing": "Prezzi",
+      "faq": "FAQ",
+      "contact": "Contatti"
+    },
+    "hero": {
+      "title": "Unisci la Tua Comunità di Calcio",
+      "subtitle": "Connettiti con i tuoi compagni, scambia messaggi e organizza partite con facilità.",
+      "appstore_btn": "App Store",
+      "googleplay_btn": "Google Play",
+      "coming_soon": "Prossimamente"
+    },
+    "features": {
+      "section_title": "Funzionalità",
+      "feature1_title": "Profilo Giocatore",
+      "feature1_desc": "Crea il tuo profilo calcistico con posizione, statistiche, altezza, peso e nazionalità.",
+      "feature2_title": "Chat di Squadra",
+      "feature2_desc": "Manda messaggi ai tuoi compagni, reagisci ai messaggi e coordina le partite in tempo reale.",
+      "feature3_title": "Organizza Partite",
+      "feature3_desc": "Imposta formazioni, gestisci eventi e invita giocatori con un codice squadra."
+    },
+    "screenshots": {
+      "section_title": "Screenshot"
+    },
+    "pricing": {
+      "section_title": "Prezzi",
+      "free_title": "Gratis",
+      "free_desc": "Funzionalità di base, unirsi a una squadra e chattare con i tuoi compagni.",
+      "pro_title": "Pro",
+      "pro_desc": "Statistiche avanzate, squadre illimitate e altro ancora.",
+      "elite_title": "Elite",
+      "elite_desc": "Accesso completo, supporto prioritario e funzionalità esclusive.",
+      "month": "mese",
+      "most_popular": "Più Popolare",
+      "coming_soon": "Prossimamente",
+      "sign_up": "Inizia"
+    },
+    "faq": {
+      "section_title": "Domande Frequenti",
+      "q1": "Cos'è AthletEye?",
+      "a1": "AthletEye è un'app di comunità calcistica per iOS e Android che aiuta i giocatori a connettersi con i compagni, organizzare partite e gestire squadre.",
+      "q2": "Per chi è AthletEye?",
+      "a2": "AthletEye è progettato per giocatori di calcio dai 13 anni in su che vogliono restare in contatto con la loro squadra.",
+      "q3": "AthletEye è gratuito?",
+      "a3": "Sì, AthletEye offre un piano gratuito con funzionalità essenziali. I piani Pro ed Elite sono disponibili per funzionalità avanzate.",
+      "q4": "Quando sarà disponibile l'app su App Store / Google Play?",
+      "a4": "AthletEye arriverà presto su App Store e Google Play. Restate sintonizzati per il lancio ufficiale!"
+    },
+    "contact": {
+      "section_title": "Contattaci",
+      "name_label": "Nome",
+      "email_label": "Email",
+      "message_label": "Messaggio",
+      "send_btn": "Invia Messaggio",
+      "success_msg": "Grazie! Il tuo messaggio è stato inviato."
+    },
+    "footer": {
+      "tagline": "AthletEye unisce la tua comunità di calcio.",
+      "rights": "© 2026 AthletEye. Tutti i diritti riservati."
+    }
+  },
+  "fr": {
+    "nav": {
+      "features": "Fonctionnalités",
+      "screenshots": "Captures",
+      "pricing": "Tarifs",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Rassemblez Votre Communauté Football",
+      "subtitle": "Connectez-vous avec vos coéquipiers, échangez des messages et organisez des matchs facilement.",
+      "appstore_btn": "App Store",
+      "googleplay_btn": "Google Play",
+      "coming_soon": "Bientôt"
+    },
+    "features": {
+      "section_title": "Fonctionnalités",
+      "feature1_title": "Profil Joueur",
+      "feature1_desc": "Créez votre profil football avec position, statistiques, taille, poids et nationalité.",
+      "feature2_title": "Chat d'Équipe",
+      "feature2_desc": "Envoyez des messages à vos coéquipiers, réagissez aux messages et coordonnez les matchs en temps réel.",
+      "feature3_title": "Organisez des Matchs",
+      "feature3_desc": "Configurez des compositions, gérez des événements et invitez des joueurs avec un code d'équipe."
+    },
+    "screenshots": {
+      "section_title": "Captures d'Écran"
+    },
+    "pricing": {
+      "section_title": "Tarifs",
+      "free_title": "Gratuit",
+      "free_desc": "Fonctionnalités de base, rejoindre une équipe et discuter avec vos coéquipiers.",
+      "pro_title": "Pro",
+      "pro_desc": "Statistiques avancées, équipes illimitées et plus encore.",
+      "elite_title": "Elite",
+      "elite_desc": "Accès complet, support prioritaire et fonctionnalités exclusives.",
+      "month": "mois",
+      "most_popular": "Le Plus Populaire",
+      "coming_soon": "Bientôt",
+      "sign_up": "Commencer"
+    },
+    "faq": {
+      "section_title": "Questions Fréquentes",
+      "q1": "Qu'est-ce que AthletEye ?",
+      "a1": "AthletEye est une application communautaire de football pour iOS et Android qui aide les joueurs à se connecter avec leurs coéquipiers, organiser des matchs et gérer des équipes.",
+      "q2": "À qui s'adresse AthletEye ?",
+      "a2": "AthletEye est conçu pour les joueurs de football âgés de 13 ans et plus qui souhaitent rester connectés avec leur équipe.",
+      "q3": "AthletEye est-il gratuit ?",
+      "a3": "Oui, AthletEye propose un plan gratuit avec des fonctionnalités essentielles. Les plans Pro et Elite sont disponibles pour des fonctionnalités avancées.",
+      "q4": "Quand l'application sera-t-elle disponible sur App Store / Google Play ?",
+      "a4": "AthletEye arrive bientôt sur l'App Store et Google Play. Restez à l'écoute pour le lancement officiel !"
+    },
+    "contact": {
+      "section_title": "Contactez-Nous",
+      "name_label": "Nom",
+      "email_label": "E-mail",
+      "message_label": "Message",
+      "send_btn": "Envoyer le Message",
+      "success_msg": "Merci ! Votre message a été envoyé."
+    },
+    "footer": {
+      "tagline": "AthletEye rassemble votre communauté football.",
+      "rights": "© 2026 AthletEye. Tous droits réservés."
+    }
+  }
+}
