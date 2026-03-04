@@ -410,7 +410,33 @@ button { cursor: pointer; font-family: var(--font); }
 .pricing-pro-desc {
     color: var(--text-muted);
     font-size: 1rem;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.pricing-pro-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 340px;
+}
+
+.pricing-pro-features li {
+    color: var(--text-muted);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pricing-pro-features li::before {
+    content: '✓';
+    color: var(--green);
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
 }
 
 .pricing-options {
